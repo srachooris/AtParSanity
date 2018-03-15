@@ -38,7 +38,7 @@ public class CreateProfiles extends BrowserInit{
 	SaveBtn.click();
 	System.out.println("Clicked on Save button");
 	
-/*try{
+try{
 	
 	Alert alert = driver.switchTo().alert();
 	System.out.println("Alert Appeared");
@@ -49,7 +49,7 @@ catch (Exception e) {
 	// TODO: handle exception
 	System.out.println(e);
 }
-*/
+
 	WebElement yes = driver.findElement(By.xpath("//button[@class='ui-button ui-widget ui-state-default btn-warning ui-corner-all ui-button-text-icon-left firepath-matching-node']"));
 	yes.click();
 	
