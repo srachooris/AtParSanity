@@ -36,7 +36,7 @@ public class CreateProfiles extends BrowserInit{
 	
 	WebElement SaveBtn = driver.findElement(By.xpath("//button[@class='btn btn-purple sbtn']"));
 	SaveBtn.click();
-	System.out.println("clicked on Save button");
+	System.out.println("clicked on Save Button");
 	
 try{
 	
